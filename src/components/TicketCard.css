@@ -1,0 +1,40 @@
+.ticket-card {
+  width: 350px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+}
+
+.ticket-card h4 {
+  margin: 0;
+}
+
+.ticket-card h5 {
+  word-spacing: 1px;
+  padding-bottom: 3px;
+}
+
+.tag-container {
+  display: flex;
+  align-items: center; 
+}
+
+.svg-left {
+  width: 20px; 
+  height: 20px;
+  margin-right: 5px; 
+  border: 1px solid rgb(224, 224, 224); 
+  border-radius: 4px; 
+  padding: 2px;
+}
+
+.ticket-tag {
+  color: black;
+  font-weight: 600;
+  border: 1px solid rgb(224, 224, 224); 
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px; 
+}
